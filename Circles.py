@@ -1,0 +1,32 @@
+import turtle
+
+def draw_circle(turtle, color, size, x, y):
+    turtle.penup()
+    turtle.color(color)
+    turtle.fillcolor(color)
+    turtle.goto(x,y)
+    turtle.begin_fill()
+    turtle.circle(size)
+    turtle.end_fill()
+    turtle.pendown()
+
+tommy = turtle.Turtle()
+tommy.shape("turtle")
+tommy.speed(500)
+
+draw_circle(tommy, "green", 50, 25, 0)
+draw_circle(tommy, "blue", 50, 0, 0)
+draw_circle(tommy, "yellow", 50, -25, 0)
+draw_circle(tommy, "#ff00ff" , 50, -50, 0)
+draw_circle(tommy, "red", 50, -75, 0)
+draw_circle(tommy, "orange", 50, -100, 0)
+draw_circle(tommy, "black", 50, -125, 0)
+draw_circle(tommy, "pink", 50, 0, -100)
+draw_circle(tommy, "violet", 50, -25, -100)
+draw_circle(tommy, "maroon", 50, -50, -100)
+draw_circle(tommy, "grey", 50, -75, -100)
+draw_circle(tommy, "white", 50, -100, -100)
+draw_circle(tommy, "magenta", 50, -125, -100)
+draw_circle(tommy, "teal", 50, 0, -200)
+draw_circle(tommy, "brown", 50, -25, -200)
+draw_circle(tommy, "cyan", 50, -50, -200)

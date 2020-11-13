@@ -1,0 +1,7 @@
+print("  DDDD       SSSSS      BBBBB")
+print("  D   D     S           B    B")
+print("  D    D    S           B     B")
+print("  D   D      SSSSS      BBBBBB")
+print("  DDDD            S     B     B")
+print("                  S     B      B")
+print("             SSSSS      BBBBBBB")
